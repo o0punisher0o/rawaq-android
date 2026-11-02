@@ -21,7 +21,9 @@ import com.rawaq.app.feature.settings.SettingsViewModel
 import com.rawaq.app.feature.today.TodayViewModel
 import com.rawaq.app.navigation.RawaqBottomBar
 import com.rawaq.app.navigation.RawaqNavGraph
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
     private val todayViewModel: TodayViewModel by viewModels()
